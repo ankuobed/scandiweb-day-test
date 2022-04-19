@@ -6,9 +6,7 @@ import {
 import { Checkout } from 'SourceRoute/Checkout/Checkout.component'
 import { connect } from 'react-redux'
 import StepProgressBar from 'Component/StepProgressBar';
-import {
-    BILLING_STEP, DETAILS_STEP, PAYMENT_TOTALS, SHIPPING_STEP, UPDATE_EMAIL_CHECK_FREQUENCY
-} from 'SourceRoute/Checkout/Checkout.config';
+import { BILLING_STEP, DETAILS_STEP, SHIPPING_STEP } from 'SourceRoute/Checkout/Checkout.config';
 
 /** @namespace Route/Checkout/Container */
 export class CheckoutContainer extends SourceCheckoutContainer {
